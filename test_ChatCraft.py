@@ -1,4 +1,4 @@
-from project import add, prod, yell
+from ChatCraft import add, prod, yell
 
 
 def test_add():
