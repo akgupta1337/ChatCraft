@@ -3,15 +3,15 @@
 #### Description: **ChatCraft** is a chat bot project desgined to automate WhatsApp messages. You can use this bot by typing certain commands like !help, the bot interact with the the web version of WhatsApp ***https://web.whatsapp.com/***  using the power of *Selenium* and reply to those commands in real time.
 
 #### Key Features:
-1.	Web Automation with Selenium:
+1.	**Web Automation with Selenium:**
     - Employs Selenium for web automation, enabling seamless interaction with the web version of WhatsApp. Implements robust element locating, waiting strategies, and browser automation to streamline user interactions.
-2.	Text Processing and Command Parsing:
+2.	**Text Processing and Command Parsing:**
     - Incorporates advanced text processing techniques to extract and parse user commands effectively. Handles diverse command formats and performs intelligent parsing for improved user experience.
-3.	Dynamic Responses and Chat Interactions:
+3.	**Dynamic Responses and Chat Interactions:**
     - Demonstrates dynamic response generation based on user commands. Engages users with interactive chat features, delivering greetings, weather updates, news, jokes, quotes, and executing basic calculations.
-4.	API Integration:
+4.	**API Integration:**
     - Integrates external APIs for real-time data retrieval, enriching user interactions. Proficient in making HTTP requests, processing JSON responses, and seamlessly integrating external data into the chat bot's responses.
-5.	Reminder System and Time Handling:
+5.	**Reminder System and Time Handling:**
     - Implements a sophisticated reminder system, efficiently scheduling and delivering reminders at specified times. Proficient in time-related operations, including parsing, formatting, and comparing time values for accurate reminders.
 
 1. **Specify Target Group/Chat:**
