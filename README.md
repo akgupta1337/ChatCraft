@@ -3,21 +3,16 @@
 #### Description: **ChatCraft** is a chat bot project desgined to automate WhatsApp messages. You can use this bot by typing certain commands like !help, the bot interact with the the web version of WhatsApp ***https://web.whatsapp.com/***  using the power of *Selenium* and reply to those commands in real time.
 
 #### Key Features:
-1. **Web Automation with Selenium:**
-    - Proficient in using Selenium for web automation, adept at navigating, interacting, and automating tasks on web applications. Experienced in element locating, waiting         strategies, and browser automation.
-
-1. **Text Processing and Command Parsing:**
-    - Skilled in processing and parsing user messages to extract commands and relevant information. Capable of handling various command formats and performing text manipulations.
-
-
-1. **Dynamic Responses and Chat Interactions:**
-    - Demonstrated ability to generate dynamic responses based on user commands. Experience in engaging chat interactions, including sending greetings, weather updates, news, jokes, quotes, and performing calculations.
-
-1. **API Integration:**
-    - Experienced in integrating external APIs for real-time data retrieval. Proficient in making HTTP requests, handling JSON responses, and seamlessly incorporating external data into chat bot responses.
-
-1.	**Reminder System and Time Handling:**
-    - Proficient in implementing a reminder system, scheduling, and sending reminders at specified times. Skilled in time-related operations, including parsing, formatting, and comparing time values.
+1.	Web Automation with Selenium:
+    - Employs Selenium for web automation, enabling seamless interaction with the web version of WhatsApp. Implements robust element locating, waiting strategies, and browser automation to streamline user interactions.
+2.	Text Processing and Command Parsing:
+    - Incorporates advanced text processing techniques to extract and parse user commands effectively. Handles diverse command formats and performs intelligent parsing for improved user experience.
+3.	Dynamic Responses and Chat Interactions:
+    - Demonstrates dynamic response generation based on user commands. Engages users with interactive chat features, delivering greetings, weather updates, news, jokes, quotes, and executing basic calculations.
+4.	API Integration:
+    - Integrates external APIs for real-time data retrieval, enriching user interactions. Proficient in making HTTP requests, processing JSON responses, and seamlessly integrating external data into the chat bot's responses.
+5.	Reminder System and Time Handling:
+    - Implements a sophisticated reminder system, efficiently scheduling and delivering reminders at specified times. Proficient in time-related operations, including parsing, formatting, and comparing time values for accurate reminders.
 
 1. **Specify Target Group/Chat:**
     - Select any particular group or chat to deploy the chat bot in in the main function while accessing the `start` method of the class **Auto** to start the bot.
