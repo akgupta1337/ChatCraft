@@ -8,15 +8,15 @@ from datetime import time as t
 from datetime import timedelta
 import sys
 import requests
-import time 
+import time
 import random
 
 
 def main():
     chat = Auto()
-    group_name = "Bot Testing"
-    profile = "Profile 10"
-    user_name = "akgup"
+    group_name = "Your group name"
+    profile = "Profile x"
+    user_name = "your user name"
     chat.start(chat_name=group_name, profile=profile, user_name=user_name)
 
 
@@ -27,7 +27,7 @@ def add(msg):
         if i.isdigit():
             num.append(int(i))
 
-    return (str(sum(num)))
+    return str(sum(num))
 
 
 def prod(msg):
@@ -412,7 +412,7 @@ Here are few commmands you can try:
                 return random.choice(night_greetings)
 
     def weather(location):
-        api_key = "531aaa0d8fa4ea05b72c38b2e641d698"
+        api_key = "your api key"
         weather_data = requests.get(
             f"https://api.openweathermap.org/data/2.5/weather?q={location}&units=imperial&APPID={api_key}"
         )
@@ -462,7 +462,7 @@ Here are few commmands you can try:
             return "The entered city is not found."
 
     def news(category):
-        url = f"https://newsapi.org/v2/top-headlines?country=in&category={category}&apiKey=c47fd280ef5f4a74b6071ea70660e37a"
+        url = f"https://newsapi.org/v2/top-headlines?country=in&category={category}&apiKey=your api key"
         response = requests.get(url)
         response = response.json()
         news = []
@@ -475,7 +475,7 @@ Here are few commmands you can try:
         api_url = "https://api.api-ninjas.com/v1/quotes?category="
         response = requests.get(
             api_url,
-            headers={"X-Api-Key": "D/9erABklSFyhWs9tQZtiA==jcdhINw8w6lWgguH"},
+            headers={"X-Api-Key": "your api key"},
         )
         response = response.json()
         res = f'{response[0]["quote"]}\n-{response[0]["author"]}'
@@ -485,7 +485,7 @@ Here are few commmands you can try:
         api_url = "https://api.api-ninjas.com/v1/jokes?limit="
         response = requests.get(
             api_url,
-            headers={"X-Api-Key": "D/9erABklSFyhWs9tQZtiA==jcdhINw8w6lWgguH"},
+            headers={"X-Api-Key": "your api key"},
         )
         response = response.json()
         return response[0]["joke"]
@@ -494,7 +494,7 @@ Here are few commmands you can try:
         api_url = "https://api.api-ninjas.com/v1/dictionary?word={}".format(word)
         response = requests.get(
             api_url,
-            headers={"X-Api-Key": "D/9erABklSFyhWs9tQZtiA==jcdhINw8w6lWgguH"},
+            headers={"X-Api-Key": "your api key"},
         )
         response = response.json()
         if response["valid"] == True:
