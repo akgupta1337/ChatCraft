@@ -4,20 +4,20 @@
 
 #### Key Features:
 1. **Web Automation with Selenium:**
-Proficient in using Selenium for web automation, adept at navigating, interacting, and automating tasks on web applications. Experienced in element locating, waiting strategies, and browser automation.
+    - Proficient in using Selenium for web automation, adept at navigating, interacting, and automating tasks on web applications. Experienced in element locating, waiting         strategies, and browser automation.
 
 1. **Text Processing and Command Parsing:**
-Skilled in processing and parsing user messages to extract commands and relevant information. Capable of handling various command formats and performing text manipulations.
+    - Skilled in processing and parsing user messages to extract commands and relevant information. Capable of handling various command formats and performing text manipulations.
 
 
 1. **Dynamic Responses and Chat Interactions:**
-Demonstrated ability to generate dynamic responses based on user commands. Experience in engaging chat interactions, including sending greetings, weather updates, news, jokes, quotes, and performing calculations.
+    - Demonstrated ability to generate dynamic responses based on user commands. Experience in engaging chat interactions, including sending greetings, weather updates, news, jokes, quotes, and performing calculations.
 
 1. **API Integration:**
-Experienced in integrating external APIs for real-time data retrieval. Proficient in making HTTP requests, handling JSON responses, and seamlessly incorporating external data into chat bot responses.
+    - Experienced in integrating external APIs for real-time data retrieval. Proficient in making HTTP requests, handling JSON responses, and seamlessly incorporating external data into chat bot responses.
 
 1.	**Reminder System and Time Handling:**
-Proficient in implementing a reminder system, scheduling, and sending reminders at specified times. Skilled in time-related operations, including parsing, formatting, and comparing time values.
+    - Proficient in implementing a reminder system, scheduling, and sending reminders at specified times. Skilled in time-related operations, including parsing, formatting, and comparing time values.
 
 1. **Specify Target Group/Chat:**
     - Select any particular group or chat to deploy the chat bot in in the main function while accessing the `start` method of the class **Auto** to start the bot.
