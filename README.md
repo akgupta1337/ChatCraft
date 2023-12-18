@@ -1,6 +1,6 @@
 # ChatCraft: Automated WhatsApp Conversations
 #### Video Demo:  https://youtu.be/O1dv50w1hDM
-#### Description: **ChatCraft** is a chat bot project desgined to automate WhatsApp messages. You can use this bot by typing certain commands like !help, the bot interact with the the web version of WhatsApp ***https://web.whatsapp.com/***  using the power of *Selenium* and reply to those commands in real time.
+#### Description: ChatCraft is an innovative WhatsApp chat bot project showcasing expertise in web automation, intelligent command parsing, and dynamic content generation. Leveraging external APIs, it provides real-time information such as weather updates, news, and more. The project's robust reminder system enhances user engagement by delivering timely and personalized reminders.
 
 #### Key Features:
 1.	**Web Automation with Selenium:**
