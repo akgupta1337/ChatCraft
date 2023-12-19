@@ -1,7 +1,7 @@
 import sys
 import time as Time
 from selenium import webdriver
-from src.BotFunctions import BotFunctions
+from BotFunctions import BotFunctions
 from datetime import datetime, time as T
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
