@@ -6,6 +6,12 @@
 ## Description
 ChatCraft is an innovative WhatsApp chat bot project that showcases expertise in web automation, intelligent command parsing, and dynamic content generation. Leveraging external APIs, it provides real-time information such as weather updates, news, and more. The project's robust reminder system enhances user engagement by delivering timely and personalized reminders.
 
+## Usage
+```bash
+cd src
+run main.py
+```
+
 ## Key Features
 1. **Web Automation with Selenium:**
     - Seamless interaction with the web version of WhatsApp using Selenium.
