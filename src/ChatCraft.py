@@ -24,7 +24,6 @@ class ChatCraft:
         """
         self.user_name = user_name
         self.profile = profile
-        self.tame = T(0, 0)
         self.reminders = []
         self.options = self.configure_driver_options()
         self.driver = webdriver.Chrome(options=self.options)
