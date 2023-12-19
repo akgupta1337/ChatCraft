@@ -1,4 +1,4 @@
-from src.ChatCraft import ChatCraft
+from ChatCraft import ChatCraft
 
 
 def main():
