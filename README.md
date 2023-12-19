@@ -56,14 +56,16 @@ run main.py
 
 ### Code Explanation:
 
-First, I've created two classes: `Auto` and `Functions`. The role of the `Auto` class is to initialize the driver with specified chat name, profile data, and directory. It allows accessing web.whatsapp.com in an existing Chrome profile, eliminating the need to scan the QR code each time the bot runs. The `start` method opens the URL using the `driver.get` function from the Selenium module.
+First, I've created two modules: `ChatCraft` and `BotFunctions`. The role of the `ChatCraft` class is to initialize the driver with specified chat name, profile data, and directory. It allows accessing web.whatsapp.com in an existing Chrome profile, eliminating the need to scan the QR code each time the bot runs. The `start` method opens the URL using the `driver.get` function from the Selenium module.
 
 ```python
-class Auto:
-    def start(self, chat_name, profile, user_name):
-        # Code to initialize driver and open WhatsApp Web
-        # ...
-        self.get_group()
+    def __init__(self, profile, user_name):
+
+        self.user_name = user_name
+        self.profile = profile
+        self.reminders = []
+        self.options = self.configure_driver_options()
+        self.driver = webdriver.Chrome(options=self.options)
 ```
 
 The get_group method is called at the end of the start method. It finds the group element based on the provided chat name, clicks on it, and initializes the text area for messages. A welcome message and emojis are then sent to the group. The start_reading method is invoked afterward.
@@ -104,7 +106,8 @@ elif msg.startswith("!reminder"):
     try:
         # Code to parse time, set reminders, and generate response
         # ...
-        res = f"Sure! Will remind you to {self.rem.upper()} in {diff}"
-        return res
+confirmation_message = f"Sure! Will remind you to *{reminder_message.upper()}* in {remind_in_message}"
+    return (confirmation_message, reminder_dict)
+
 ```
 This block ensures that reminders are sent to the user based on the specified time and message. A 5-second delay is added after sending the first reminder to prevent continuous reminders for one minute.
