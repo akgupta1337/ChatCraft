@@ -1,7 +1,6 @@
 # ChatCraft: Automated WhatsApp Conversations
 
-## Video Demo
-[Watch the demo here](https://youtu.be/O1dv50w1hDM)
+
 
 ## Description
 ChatCraft is an simple WhatsApp chat bot project that showcases expertise in web automation, smart command parsing, and dynamic content generation. Leveraging external APIs, it provides real-time information such as weather updates, news, and more. The project's robust reminder system enhances user engagement by delivering timely and personalized reminders.
