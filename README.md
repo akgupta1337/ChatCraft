@@ -10,6 +10,7 @@ ChatCraft is an simple WhatsApp chat bot project that showcases expertise in web
 cd src
 run main.py
 ```
+![Screenshot of ChatCraft bot](Untitled.jpeg)
 
 ## Key Features
 1. **Web Automation with Selenium:**
